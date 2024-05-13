@@ -33,7 +33,7 @@ const Index = () => {
           size="md"
           width="100%"
         />
-        <Button onClick={handleAddTask} colorScheme="blue" mt="4">Add Task</Button>
+        <Button onClick={handleAddTask} colorScheme="green" mt="4">Add Task</Button>
         <List spacing={3} mt="8" width="100%">
           {tasks.map((task, index) => (
             <ListItem key={index} display="flex" justifyContent="space-between" alignItems="center">
